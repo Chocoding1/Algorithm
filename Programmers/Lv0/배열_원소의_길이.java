@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class 배열_원소의_길이 {
     public int[] solution(String[] strList) {
         int[] answer = new int[strList.length];
@@ -9,7 +7,7 @@ public class 배열_원소의_길이 {
 
         return answer;
 
-        // stream을 사용하여 간단하게 풀이 가능
+        // stream을 사용
 //        return Arrays.stream(strList).mapToInt(String::length).toArray();
     }
 }
