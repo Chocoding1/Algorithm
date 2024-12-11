@@ -11,7 +11,7 @@ public class Boj_1456 {
     static long A;
     static long B;
     static boolean[] sosu;
-    static int limit = 10000000;
+    static int limit;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -19,6 +19,8 @@ public class Boj_1456 {
 
         A = Long.parseLong(st.nextToken());
         B = Long.parseLong(st.nextToken());
+
+        limit = (int) Math.sqrt(B);
 
         sosu = new boolean[limit + 1]; //10^7승까지만 소수를 구해도 된다.
         // 그 이후의 소수를 구해도 거의 소수를 구하기 위해 제곱을 하면 10^14승을 넘어가버리기 때문
