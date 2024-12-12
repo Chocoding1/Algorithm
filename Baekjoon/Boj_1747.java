@@ -41,7 +41,7 @@ public class Boj_1747 {
                 return false; // false 반환
             }
         }
-        
+        return true; // 무사히 for문을 탈출했다면 펠린드롬이므로 true 반환
     }
 
     /**
