@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.StringTokenizer;
 
 public class Boj_11723 {
@@ -11,10 +12,8 @@ public class Boj_11723 {
         StringTokenizer st;
 
         int M = Integer.parseInt(br.readLine());
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 1; i <= 20; i++) {
-            map.put(i, 0);
-        }
+        HashSet<Integer> set = new HashSet<>();
+        StringBuilder sb = new StringBuilder();
 
         String cmd;
         int num;
@@ -24,33 +23,34 @@ public class Boj_11723 {
 
             if (cmd.equals("add")) {
                 num = Integer.parseInt(st.nextToken());
-                if (map.get(num) == 0) {
-                    map.replace(num, 1);
-                }
+                set.add(num);
             } else if (cmd.equals("remove")) {
                 num = Integer.parseInt(st.nextToken());
-                if (map.get(num) == 1) {
-                    map.replace(num, 0);
-                }
+                set.remove(num);
             } else if (cmd.equals("check")) {
                 num = Integer.parseInt(st.nextToken());
-                System.out.println(map.get(num));
+                if (set.contains(num)) {
+                    sb.append(1);
+                } else {
+                    sb.append(0);
+                }
+                sb.append("\n");
             } else if (cmd.equals("toggle")) {
                 num = Integer.parseInt(st.nextToken());
-                if (map.get(num) == 1) {
-                    map.replace(num, 0);
+                if (set.contains(num)) {
+                    set.remove(num);
                 } else {
-                    map.replace(num, 1);
+                    set.add(num);
                 }
             } else if (cmd.equals("all")) {
                 for (int j = 1; j <= 20; j++) {
-                    map.replace(j, 1);
+                    set.add(j);
                 }
             } else {
-                for (int j = 1; j <= 20; j++) {
-                    map.replace(j, 0);
-                }
+                set.clear();
             }
         }
+
+        System.out.println(sb);
     }
 }
