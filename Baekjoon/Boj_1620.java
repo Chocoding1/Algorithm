@@ -28,10 +28,11 @@ public class Boj_1620 {
         for (int i = 0; i < M; i++) {
             ques = br.readLine();
             if (Character.isDigit(ques.charAt(0))) {
-                sb.append(pocketList[Integer.parseInt(ques) - 1]).append("\n");
+                sb.append(pocketList[Integer.parseInt(ques) - 1]);
             } else {
-                sb.append(pocketMap.get(ques)).append("\n");
+                sb.append(pocketMap.get(ques));
             }
+            sb.append("\n");
         }
         System.out.println(sb);
     }
