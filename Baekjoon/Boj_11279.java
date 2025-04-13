@@ -10,7 +10,7 @@ public class Boj_11279 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
-        PriorityQueue<Object> queue = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < N; i++) {
