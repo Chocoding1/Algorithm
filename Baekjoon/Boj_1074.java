@@ -25,7 +25,7 @@ public class Boj_1074 {
     }
 
     private static void visit(int startI, int startJ, int n) {
-        if (result != -1) { // 정답이 나왔으면 그 다음 재귀들은 안 해도 됨
+        if (result != -1) { // 정답이 나왔으면 그 다음 재귀들은 안 해도 되므로 return
             return;
         }
 
