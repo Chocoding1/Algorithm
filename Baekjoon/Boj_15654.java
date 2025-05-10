@@ -45,7 +45,7 @@ public class Boj_15654 {
             if (visited[i]) {
                 continue;
             }
-            seq[n] = num[i];
+            seq[n] = num[i];adf
             visited[i] = true;
             dfs(n + 1);
             visited[i] = false;
