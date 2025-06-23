@@ -32,7 +32,7 @@ public class Boj_17070 {
             res++;
             return;
         }
-        
+
         if (!isPossible(startI, startJ, endI, endJ)) {
             return;
         }
