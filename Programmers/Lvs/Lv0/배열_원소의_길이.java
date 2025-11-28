@@ -1,3 +1,5 @@
+package Lv0;
+
 public class 배열_원소의_길이 {
     public int[] solution(String[] strList) {
         int[] answer = new int[strList.length];

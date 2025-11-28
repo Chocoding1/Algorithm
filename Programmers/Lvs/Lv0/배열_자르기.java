@@ -1,3 +1,5 @@
+package Lv0;
+
 import java.util.Arrays;
 
 public class 배열_자르기 {

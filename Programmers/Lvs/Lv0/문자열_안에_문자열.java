@@ -1,3 +1,5 @@
+package Lv0;
+
 public class 문자열_안에_문자열 {
     public int solution(String str1, String str2) {
         if (str1.contains(str2)) {
