@@ -24,7 +24,7 @@ public class Boj_1629_Re {
         }
         if (b == 1) {
             return A % C;
-        }ㅁㅇㄹㅁㅇㄹ
+        }
 
         long half = recursion(b / 2);
 
