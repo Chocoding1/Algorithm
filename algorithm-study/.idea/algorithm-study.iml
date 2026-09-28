@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-09-16/완주하지 못한 선수" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-09-16/의상" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-09-28/전화번호 목록" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-09-28/기능개발" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
