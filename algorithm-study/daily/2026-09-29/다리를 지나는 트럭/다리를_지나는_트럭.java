@@ -1,9 +1,27 @@
+import java.util.ArrayDeque;
+
 // 프로그래머스 Lv.2
 public class 다리를_지나는_트럭 {
 
     public int solution(int bridge_length, int weight, int[] truck_weights) {
-        int answer = 0;
-        return answer;
+        ArrayDeque<int[]> bridge = new ArrayDeque<>();
+        int time = 0;
+        int remainingWeight = weight;
+
+        for (int truckWeight : truck_weights) {
+            time++;
+
+            while (!bridge.isEmpty()
+                    && (bridge.peek()[1] <= time || truckWeight > remainingWeight)) {
+                time = Math.max(time, bridge.peek()[1]);
+                remainingWeight += bridge.poll()[0];
+            }
+
+            bridge.offer(new int[]{truckWeight, time + bridge_length});
+            remainingWeight -= truckWeight;
+        }
+
+        return bridge.getLast()[1];
     }
 
     public static void main(String[] args) {
