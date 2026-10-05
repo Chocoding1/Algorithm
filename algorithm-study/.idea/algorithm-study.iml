@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-09-30/주식가격" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-01/다리를 지나는 트럭" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-01/올바른 괄호" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-05/주식가격" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-05/뒤에 있는 큰 수 찾기" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,0 +1,4 @@
+-- 프로그래머스 SQL Lv.1
+-- MySQL
+SELECT * FROM ANIMAL_INS ORDER BY ANIMAL_ID ASC;
+-- 쿼리를 작성하세요.
