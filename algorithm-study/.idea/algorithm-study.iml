@@ -19,6 +19,9 @@
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-06/최소직사각형" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-07/피로도" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-07/모음사전" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-08/최소직사각형" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-09/두 큐 합 같게 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-09/게임 맵 최단거리" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
