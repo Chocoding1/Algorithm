@@ -1,0 +1,6 @@
+-- 프로그래머스 SQL Lv.1
+-- MySQL
+SELECT * FROM CAR_RENTAL_COMPANY_CAR
+WHERE OPTIONS LIKE '%네비게이션%'
+ORDER BY CAR_ID DESC;
+-- 쿼리를 작성하세요.
