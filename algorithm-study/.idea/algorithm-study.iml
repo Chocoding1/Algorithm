@@ -25,6 +25,8 @@
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-11/두 큐 합 같게 만들기" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-11/괄호 회전하기" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-11/네트워크" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-12/큰 수 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-12/단어 변환" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
