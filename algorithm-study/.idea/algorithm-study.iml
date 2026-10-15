@@ -27,6 +27,12 @@
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-11/네트워크" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-12/큰 수 만들기" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-12/단어 변환" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-13/괄호 회전하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-13/타겟 넘버" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-14/큰 수 만들기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-14/소수 찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-15/연속된 부분 수열의 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-10-15/구명보트" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

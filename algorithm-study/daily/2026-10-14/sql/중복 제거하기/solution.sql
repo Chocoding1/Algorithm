@@ -1,0 +1,5 @@
+-- 프로그래머스 SQL Lv.2
+-- MySQL
+SELECT COUNT(DISTINCT NAME)
+FROM ANIMAL_INS;
+-- 코드를 작성하세요.
