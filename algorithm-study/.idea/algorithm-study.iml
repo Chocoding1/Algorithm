@@ -40,6 +40,8 @@
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-05/주차 요금 계산" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-08/입국심사 재도전" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-08/전력망을 둘로 나누기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-09/가장 먼 노드" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-09/배달" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
