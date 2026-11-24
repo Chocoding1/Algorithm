@@ -54,6 +54,8 @@
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-19/행렬 테두리 회전하기" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-23/문자열 압축" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-23/파일명 정렬" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-24/합승 택시 요금 재도전" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-24/방문 길이" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
