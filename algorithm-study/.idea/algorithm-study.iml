@@ -56,6 +56,9 @@
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-23/파일명 정렬" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-24/합승 택시 요금 재도전" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-24/방문 길이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-25/서버 증설 횟수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-25/등굣길" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daily/2026-11-25/부대복귀" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
